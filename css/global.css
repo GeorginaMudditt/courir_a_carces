@@ -1,0 +1,35 @@
+body {
+    background-color: bisque;
+}
+
+@font-face {
+    font-family: NotoSans;
+    src: url(../fonts/notosans.ttf) format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Hedvig;
+    src: url(../fonts/hedvig.ttf) format('truetype');
+    font-display: swap;
+}
+
+p {
+    font-family: Hedvig;
+    font-size: 1.25em;
+    color: darkblue;
+    line-height: 1.4em;
+    padding: 5px 45px;
+}
+
+.section_two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_two div {
+    width: 50%;
+}
