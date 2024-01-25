@@ -31,5 +31,14 @@ p {
 }
 
 .section_two div {
-    width: 50%;
+    width: 25%;
+}
+
+footer {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.fb_logo {
+    text-align: end;
 }
