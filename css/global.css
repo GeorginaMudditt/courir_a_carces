@@ -35,6 +35,15 @@ p {
     width: 25%;
 }
 
+.section_three {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 50px; 
+}
+
 .parcours_strava_maps {
     display:flex;
     flex-direction: row;
@@ -45,7 +54,7 @@ p {
 
 footer {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .fb_logo {
