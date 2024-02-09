@@ -1,0 +1,53 @@
+
+/* parent box */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 20px 0 20px 20px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: flex;
+}
+.title_and_nav {
+    width: 100%;
+}
+.title_and_nav h1 {
+    font-family: 'NotoSans';
+    font-size: 3em;
+    color: teal;
+    padding: 10px 10px 20px 50px; 
+}
+
+/* nav */
+header nav {
+    background-color: lightgray;
+    padding: 0 50px;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header li {
+    padding: 10px;
+}
+header li:hover {
+    background-color: lightcyan;
+}
+
+header li a {
+    font-family: 'Hedvig';
+    font-weight: bold;
+    font-size: 1.25em;
+    color: darkblue;
+    text-decoration: none;
+}
+
+header li a:visited {
+    color: darkorchid;
+}
