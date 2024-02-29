@@ -44,7 +44,42 @@ p {
     padding: 50px; 
 }
 
+.equipe_photos1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 50px; 
+}
 
+.equipe_photos2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 50px; 
+}
+
+.equipe_mots1 {
+    display: flex;
+    flex-direction: row;
+    border-color: cadetblue;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 50px; 
+}
+
+.equipe_mots2 {
+        display: flex;
+        flex-direction: row;
+        border-color: cadetblue;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding: 50px; 
+}
+    
 .autre_courses_websites {
     display: flex;
     flex-wrap: wrap;
