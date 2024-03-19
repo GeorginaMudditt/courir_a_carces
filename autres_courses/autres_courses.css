@@ -1,28 +1,24 @@
 .autre_courses_websites {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    padding: 150px 100px 0px 100px;
+    padding: 50px 100px;
 }
 
-.autre_courses_websites div {
-    width: 25%;
-}
-
-.chronosports_addresse {
+.autre_courses_websites a {
     text-decoration: none;
-
+    font-size: xx-large;
 }
-.kms_addresse {
-    text-decoration: none;
-    font-size: large; 
+
+.autre_courses_websites iframe {
+    padding-left: 150px;
 }
 
 .photos_autres_courses {
     display: flex;
     flex-direction: row;
-    padding-top: 40px;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding: 50px; 
+    padding: 0 20px;
+}
+
+.card {
+    padding: 0 20px;
 }

@@ -1,0 +1,23 @@
+.section_two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_two div {
+    width: 25%;
+}
+
+.section_three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 50px; 
+}
+
+.fb_logo {
+    text-align: end;
+}
